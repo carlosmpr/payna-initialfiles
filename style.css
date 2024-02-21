@@ -53,3 +53,262 @@ body {
     line-height: 1.5;
 }
 
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent; 
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 25px; 
+  height: auto;
+  margin-right: 10px;
+}
+
+.brand-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-nav li {
+  padding: 0 15px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.navbar-btn {
+  padding: 10px 40px;
+  background-color: #F5F6FB; 
+  border: none;
+  border-radius: 20px; 
+  transition: background-color 0.3s; 
+}
+
+.navbar-btn:hover {
+  background-color: #e0e0e0; 
+}
+
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  max-width: 500px; 
+}
+
+.get-started-btn {
+  padding: 10px 30px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.intro-image {
+  width: 900px;
+  height: auto;
+     
+}
+
+
+
+.company-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.company-title h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px; 
+}
+
+.company-logos img {
+  width: 120px;
+}
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px; 
+}
+
+
+
+.intro-section,
+.company-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px; 
+}
+
+
+.text-center {
+  text-align: center;
+  padding: 50px 20px; 
+}
+
+.subtitle {
+  color: orange;
+  font-size: 1rem; 
+  margin-bottom: 10px; 
+}
+
+.title {
+  color: black;
+  font-size: 2rem; 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+}
+
+.description {
+  color: #333;
+  font-size: 1.2rem; 
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+
+
+.service-block {
+  display: flex;
+  align-items: center;
+  margin: 20px; 
+  padding: 10px; 
+}
+
+.icon-container {
+  margin-right: 20px; 
+}
+
+.service-icon {
+  width: 50px; 
+  height: auto; 
+}
+
+.text-container {
+  flex: 1; 
+}
+
+.service-title {
+  font-size: 1rem; 
+  margin-bottom: 5px; 
+  font-weight: bold;
+}
+
+.service-description {
+  font-size: 0.8rem; 
+  max-width: 300px;
+}
+
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px; 
+  max-width: 1200px; 
+  margin: auto; 
+}
+
+.subscribe-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.subscribe-image {
+  width: 700px;
+   
+}
+
+.subscribe-heading {
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.subscribe-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subscribe-description {
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 10px;
+}
+
+.email-input, .subscribe-btn {
+  padding: 10px 15px;
+  border-radius: 20px; 
+  border: 1px solid #ccc; 
+}
+
+.email-input {
+  flex-grow: 1; 
+}
+
+.subscribe-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover {
+  background-color: #0056b3; 
+}
+
